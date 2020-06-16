@@ -11,15 +11,130 @@
     font-weight:400px;
 }
 body{
-    border: 1px solid black;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .container {
-    width: 1280px;
+   width: 1920px;
     margin: 0 auto;
+    
+    
 }
 .main-header{
-    width: 1920px;
 min-height: 1024px;
     background: url(../img/bg_photo_11949.png);
+    background-position: center;
+    background-repeat: no-repeat;
+background-color: rgba(17,17,17,0.7);
+       width: 100%;
+    padding: 50px;
+   box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    margin: 0 0 0 376px;
+  justify-content: space-between;
+  align-items: center;
+  width: 185px;
+  text-decoration: none;
+  color: #fff;
+
+}
+.logo_svg{
+width: 64px;
+height: 56px;
+    background:#52504d;
+background: rgba(1, 0, 0, 0);
+    color: #ffffff;
+     fill: CurrentColor;
+    margin:0 0 0px 0px;
+}
+.logo_waxom{
+font-family: raleway-regular;
+font-size: 34px;
+line-height: 1.2;
+font-weight: 400;
+letter-spacing: -0.04em;
+color: #ffffff;
+}
+.header_menu{
+    display: flex;
+    margin:0 0 0 0;
+}
+.menu{
+  color: #fff;
+    font-family: montserrat-regular;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #ffffff;
+     display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    margin: -55px 0 0 700px;
+  
+}
+li {
+  list-style-type: none;
+    margin: 0 auto;
+    color: #ffffff;
+    text-decoration: none;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+     display: flex;
+    justify-content: space-between;
+    padding:0;
+    margin: 20px;
+    justify-content: flex-end;
+}
+.icon1{
+     
+    margin: -45px 0 0 10px;
+}
+.icon_cart_bag{
+width: 18px;
+height: 24px;
+     background:#3a3b3c;
+background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+     fill: CurrentColor;
+   
+}
+.icon_cart{
+     background:#3a3b3c;
+background: rgba(0, 0, 0, 0);
+    color: #ffffff;
+     fill: CurrentColor;
+    outline: none;
+     border: 0px;
+  
+}
+.icon_cart:active{
+background:#c7b299;
+}
+.form_search{
+    width: 40px;
+  height: 40px;
+  outline: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid gray;
+    background-image: ;
+
+}
+
+.form_search:focus {
+  width: 150px;
+  transition: width 1s ease-out;
+  background-position: right;
+}
+
+.form_search:before {
+  content:"fa-search";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
 }
